@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Eres el Campeón!</title>
+</head>
+<body>
+    <h1>🏆 ¡FELICIDADES, ERES EL CAMPEÓN! 🏆</h1>
+    <p>Has vencido a todos tus oponentes y ahora eres el ganador de los Juegos del Hambre.</p>
+    <p>Tu valentía será recordada para siempre.</p>
+
+    <h2>¿Cómo sobrevivirías en la arena?</h2>
+    <form action="resultado.html">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="estrategia">Estrategia de supervivencia:</label><br>
+        <textarea id="estrategia" name="estrategia" rows="4" cols="40"></textarea><br><br>
+
+        <label>Tipo de tributo:</label><br>
+        <input type="radio" id="sigiloso" name="tributo" value="Sigiloso">
+        <label for="sigiloso">Sigiloso</label><br>
+        <input type="radio" id="agresivo" name="tributo" value="Agresivo">
+        <label for="agresivo">Agresivo</label><br><br>
+
+        <label>Habilidades:</label><br>
+        <input type="checkbox" id="caza" name="habilidades" value="Caza">
+        <label for="caza">Caza</label><br>
+        <input type="checkbox" id="sigilo" name="habilidades" value="Sigilo">
+        <label for="sigilo">Sigilo</label><br>
+        <input type="checkbox" id="medicina" name="habilidades" value="Medicina">
+        <label for="medicina">Medicina</label><br><br>
+
+        <button>Enviar</button>
+    </form>
+
+    <br>
+</body>
+</html>
